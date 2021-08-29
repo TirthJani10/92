@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+	font-family: 'Poppins', sans-serif;
+}
+body
+{
+	background-image: url(956711.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 30%;
+		height: 150px;
+		background-color: wheat;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 3px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+h1{
+	color: rgb(25, 0, 255);
+	font-weight: 600;
+	background-color: #fff;
+	width: fit-content;
+	/* font-family: 'Akaya Kanadaka', cursive; */
+}
+h3{
+	/* font-family: 'Lora', serif; */
+	color: teal;
+}
+#username{
+	/* font-family: 'Yellowtail', cursive; */
+	color: black;
+}
+
+#number_1,#number_2
+{
+	color: tomato;
+	font-weight: bold;
+}
+h4{
+	color: bisque;
+	/* font-family: 'Akaya Kanadaka', cursive; */
+	width: 100px;
+}
+#player1_score{
+	font-size: 20px;
+	margin-right: 40px;
+	background-color: white;
+}
+
+#player2_score{
+	font-size: 20px;
+	margin-right: 40px;
+	background-color: white;
+
+}
